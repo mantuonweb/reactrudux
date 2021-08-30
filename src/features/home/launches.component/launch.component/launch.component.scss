@@ -1,0 +1,53 @@
+// .card-img-top{
+//   padding: 20px;
+// }
+.img-container {
+  margin: 20px;
+  background-color: #f2f2f2;
+}
+.title-text {
+  color: #485298;
+}
+.value-text {
+  color: #747cae;
+  margin-left: 5px;
+}
+.card-body {
+  padding-top: 0;
+}
+.mission-ids {
+  margin: 0;
+}
+@media only screen and (max-width: 700px) {
+  body {
+    background-color: lightblue;
+  }
+  .card {
+    width: 100%;
+    .card-img-top {
+      width: 100%;
+    }
+  }
+}
+@media only screen and (min-width: 701px) and (max-width: 1024px) {
+  body {
+    background-color: lightblue;
+  }
+  .card {
+    width: 100%;
+    .card-img-top {
+      width: 100%;
+    }
+  }
+}
+@media only screen and (min-width: 1025px) {
+  body {
+    background-color: lightblue;
+  }
+  .card {
+    width: 100%;
+    .card-img-top {
+      width: 100%;
+    }
+  }
+}

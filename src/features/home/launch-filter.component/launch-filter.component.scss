@@ -1,0 +1,49 @@
+.filter-action{
+    margin-bottom: 15px;
+    button{
+      background-color: #C5E09B;
+      color:black;
+      border:0;
+      &.active,&:active{
+        background-color: #50770B;
+        color:black;
+      }
+      padding: 2px 15px;
+    }
+  }
+  .card-body{
+    padding:1px
+  }
+  .filter-title {
+    padding-bottom: 2px;
+    border-bottom: 1px solid #757575;
+    margin:10px 20px;
+    font-size: 0.8rem;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    body {
+      background-color: lightblue;
+    }
+    .card{
+      width:100%;padding:10px;
+    }
+  }
+  @media only screen and (min-width: 701px) and (max-width: 1024px) {
+    body {
+      background-color: lightblue;
+    }
+    .card{
+       margin-top: 10px;
+      width:180px;padding:10px;
+    }
+  }
+  @media only screen and (min-width: 1025px) {
+    body {
+      background-color: lightblue;
+    }
+    .card{
+       margin-top: 10px;
+      width:180px;padding:10px;
+    }
+  }

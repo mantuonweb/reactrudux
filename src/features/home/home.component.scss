@@ -1,0 +1,67 @@
+.loader {
+    top: calc(50% - 20px);
+    position: absolute;
+    left: calc(50% - 20px);
+    z-index: 100;
+  }
+  .error-in-records {
+    span {
+      color: red;
+      font-weight: bold;
+    }
+  }
+  
+  @media only screen and (max-width: 700px) {
+    body {
+      background-color: lightblue;
+    }
+    .filter {
+      width: 100%;
+    }
+    .mission {
+      width: 100%;
+    }
+    .no-record-found,
+    .error-in-records {
+      margin: auto;
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  @media only screen and (min-width: 701px) and (max-width: 1024px) {
+    body {
+      background-color: lightblue;
+    }
+    .filter {
+      width: 180px;
+    }
+    .mission {
+      width: calc(100vw - 225px);
+    }
+    .no-record-found,
+    .error-in-records {
+      position: absolute;
+      text-align: center;
+      top: calc(50vh - 20px);
+      left: calc(50vw - 20px);
+    }
+  }
+  @media only screen and (min-width: 1025px) {
+    body {
+      background-color: lightblue;
+    }
+    .filter {
+      width: 180px;
+    }
+    .mission {
+      width: calc(100vw - 250px);
+    }
+    .no-record-found,
+    .error-in-records {
+      position: absolute;
+      text-align: center;
+      top: calc(50vh - 20px);
+      left: calc(50vw - 20px);
+    }
+  }
+  
